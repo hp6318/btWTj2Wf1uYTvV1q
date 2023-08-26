@@ -1,6 +1,6 @@
-Happy Customers
+# Happy Customers
 
-Background:
+### Background:
 
 We are one of the fastest growing startups in the logistics and delivery domain. We work with several partners and make on-demand delivery to our customers. During the COVID-19 pandemic, we are facing several different challenges and everyday we are trying to address these challenges.
 
@@ -10,7 +10,7 @@ Getting feedback from customers is not easy either, but we do our best to get co
 
 We recently did a survey to a select customer cohort. You are presented with a subset of this data. We will be using the remaining data as a private test set.
 
-Data Description:
+### Data Description:
 
 Y = target attribute (Y) with values indicating 0 (unhappy) and 1 (happy) customers
 
@@ -28,6 +28,5 @@ X6 = the app makes ordering easy for me
 
 Attributes X1 to X6 indicate the responses for each question and have values from 1 to 5 where the smaller number indicates less and the higher number indicates more towards the answer.
 
-Goal(s):
-
+### Goal(s):
 Predict if a customer is happy or not based on the answers they give to questions asked.
