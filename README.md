@@ -30,3 +30,21 @@ Attributes X1 to X6 indicate the responses for each question and have values fro
 
 ### Goal(s):
 Predict if a customer is happy or not based on the answers they give to questions asked.
+
+### Machine Learning Models:
+```
+    1. Logistic Regression Classifier (59.52%)
+    2. Support Vector Machines (57.14%)
+    3. Random Forest Classifer (94.44%)
+``` 
+Random Forest classifier which in ensemble learning technique, performed the best with 94.44% train accuracy. 
+
+#### Feature Importance:
+<p align="center"><img src="Feature_importance.png" alt="Feat_imp" width="500" /></p>
+
+As, it can be observed that feature 1 & 3 i.e Questions: 
+```
+    1. my order was delivered on time
+    2. I ordered everything I wanted to order
+```
+lay the most importance in deciding whether the customer was happy or not. 
