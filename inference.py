@@ -13,6 +13,7 @@ df = pd.read_csv("./data/ACME-HappinessSurvey2020.csv",delimiter=',') #change th
 XTest = df[['X1','X2','X3','X4','X5','X6']]
 yTest = df[['Y']]
 
+#predict on test dataset
 yTest_predict = model.predict(XTest)
 
 print("Test Accuracy: ",accuracy_score(yTest,yTest_predict))
